@@ -14,13 +14,13 @@ public class Helicopter {
 	private int longitude;
 	private int altitude;
 	private String direction;
-	JChannel channel;
+	private JChannel channel;
 	private String kindOf = "helicopter";
 
 	public Helicopter(String type, String codeName) {
 		this.type = type;
 		this.codeName = codeName;
-		id = counterId++;
+		this.id = counterId++;
 	}
 
 	private Helicopter(String codeName, String type, String direction,
