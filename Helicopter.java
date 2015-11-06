@@ -23,7 +23,7 @@ public class Helicopter {
 		id = counterId++;
 	}
 
-	private Helicopter(String type, String codeName, String direction,
+	private Helicopter(String codeName, String type, String direction,
 			int latitude, int longitude, int altitude, int id, String kindOf) {
 		this.type = type;
 		this.codeName = codeName;
