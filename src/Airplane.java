@@ -20,7 +20,7 @@ public class Airplane {
 	public Airplane(String type, String codeName) {
 		this.type = type;
 		this.codeName = codeName;
-		id = counterId--;
+		this.id = counterId--;
 	}
 
 	private Airplane(String codeName, String type, String direction,
