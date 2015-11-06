@@ -37,7 +37,6 @@ public class DispatchControlCenter {
 				fullLogs.add(obj);
 			}
 				
-			
 			if(m.src().toString().equals("airplanes")){
 				Airplane obj = new Gson().fromJson((String) m.getObject(), Airplane.class);
 				la.put(obj.getId(), obj);
