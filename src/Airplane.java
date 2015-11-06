@@ -14,7 +14,7 @@ public class Airplane {
 	private int longitude;
 	private int altitude;
 	private String direction;
-	JChannel channel;
+	private JChannel channel;
 	private String kindOf = "airplane";
 
 	public Airplane(String type, String codeName) {
